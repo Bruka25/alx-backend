@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
-"""Pagination helper function.
-"""
+""" Module for Pagination helper function"""
 
 from typing import Tuple
 
@@ -18,8 +17,9 @@ def index_range(page: int, page_size: int) -> Tuple[int, int]:
         end index (exclusive).
     """
     # Calculate the start index for the items on the current page.
-    # The start index is determined by subtracting 1 from the page number and then
-    # multiplying by the page size. This is because page numbering typically starts at 1,
+    # The start index is determined by subtracting 1 from the page number and
+    # multiplying by the page size. This is because page numbering typically
+    # starts at 1,
     # but indexing in programming starts at 0.
     start = (page - 1) * page_size
 
