@@ -55,8 +55,8 @@ class Server:
             List[List]: A list of rows for the requested page.
         """
         # Validate inputs
-        assert type(page) == int and type(page_size) == int,
-        assert page > 0 and page_size > 0,
+        assert type(page) == int and type(page_size) == int
+        assert page > 0 and page_size > 0
 
         # Get the start and end indices for the requested page
         start, end = index_range(page, page_size)
