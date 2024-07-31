@@ -362,7 +362,7 @@ The following codes are for ALX 0x03-queuing_system_in_js within the alx-backend
      -> Make sure the format returned by the web application is always JSON and not text
      -> Make sure that only the allowed amount of seats can be reserved
      -> Make sure that the main route is displaying the right number of seats
-        
+  ```      
 
 
 
